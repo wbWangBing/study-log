@@ -1,0 +1,6 @@
+framework module Pods_CapCut_CapCutUITests {
+  umbrella header "Pods-CapCut-CapCutUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

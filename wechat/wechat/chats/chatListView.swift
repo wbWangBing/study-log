@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct chatListView: View {
+    @StateObject var viewModel = chatViewListViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(viewModel.chats){ chat in
+            chatRowView(chat : chat)
+        }
+        .listStyle(.plain)
+        .listRowSeparator(.hidden) // 隐藏系统分割线
     }
+    
 }
 
 #Preview {

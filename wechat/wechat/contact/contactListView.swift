@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct contactListView: View {
+    @StateObject var viewModel = contactListViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(viewModel.contacts){contact in
+            contactRowView(contact: contact)
+        }
+        .listStyle(.plain)
     }
 }
 

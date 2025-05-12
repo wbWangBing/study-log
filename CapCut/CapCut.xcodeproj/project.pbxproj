@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E21393E344BC3CA4E433211 /* Pods_CapCutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AA121D68FCEBACEBEFF7C7 /* Pods_CapCutTests.framework */; };
+		A1D3FA265E9CF5ACD39CBB85 /* Pods_CapCut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11577E8B9D014A56F47D01BE /* Pods_CapCut.framework */; };
+		F15016DE25B324A1ACCD2505 /* Pods_CapCut_CapCutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDC8BA0597BC737D4A1FA43 /* Pods_CapCut_CapCutUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B21E5712DCE0402006CB3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B21E5522DCE0400006CB3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B21E5592DCE0400006CB3B2;
+			remoteInfo = CapCut;
+		};
+		2B21E57B2DCE0402006CB3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B21E5522DCE0400006CB3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B21E5592DCE0400006CB3B2;
+			remoteInfo = CapCut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11577E8B9D014A56F47D01BE /* Pods_CapCut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapCut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B21E55A2DCE0400006CB3B2 /* CapCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B21E5702DCE0402006CB3B2 /* CapCutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapCutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B21E57A2DCE0402006CB3B2 /* CapCutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapCutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		301E6B52340EFC6892367022 /* Pods-CapCutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapCutTests.debug.xcconfig"; path = "Target Support Files/Pods-CapCutTests/Pods-CapCutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D9068D1FDEEC23CC3C001F /* Pods-CapCut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapCut.release.xcconfig"; path = "Target Support Files/Pods-CapCut/Pods-CapCut.release.xcconfig"; sourceTree = "<group>"; };
+		A9AA121D68FCEBACEBEFF7C7 /* Pods_CapCutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapCutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1E381541C43D9534E8169A /* Pods-CapCut-CapCutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapCut-CapCutUITests.release.xcconfig"; path = "Target Support Files/Pods-CapCut-CapCutUITests/Pods-CapCut-CapCutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1DD53514017D5F0864C7F7D /* Pods-CapCut-CapCutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapCut-CapCutUITests.debug.xcconfig"; path = "Target Support Files/Pods-CapCut-CapCutUITests/Pods-CapCut-CapCutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFDC8BA0597BC737D4A1FA43 /* Pods_CapCut_CapCutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapCut_CapCutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D502C9BF54B1AEA5D0312484 /* Pods-CapCutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapCutTests.release.xcconfig"; path = "Target Support Files/Pods-CapCutTests/Pods-CapCutTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFAF8ACB57A78AF6F94F21AA /* Pods-CapCut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapCut.debug.xcconfig"; path = "Target Support Files/Pods-CapCut/Pods-CapCut.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B21E5822DCE0402006CB3B2 /* Exceptions for "CapCut" folder in "CapCut" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2B21E5592DCE0400006CB3B2 /* CapCut */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2B21E55C2DCE0400006CB3B2 /* CapCut */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B21E5822DCE0402006CB3B2 /* Exceptions for "CapCut" folder in "CapCut" target */,
+			);
+			path = CapCut;
+			sourceTree = "<group>";
+		};
+		2B21E5732DCE0402006CB3B2 /* CapCutTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CapCutTests;
+			sourceTree = "<group>";
+		};
+		2B21E57D2DCE0402006CB3B2 /* CapCutUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CapCutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B21E5572DCE0400006CB3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D3FA265E9CF5ACD39CBB85 /* Pods_CapCut.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B21E56D2DCE0402006CB3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E21393E344BC3CA4E433211 /* Pods_CapCutTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B21E5772DCE0402006CB3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15016DE25B324A1ACCD2505 /* Pods_CapCut_CapCutUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B21E5512DCE0400006CB3B2 = {
+			isa = PBXGroup;
+			children = (
+				2B21E55C2DCE0400006CB3B2 /* CapCut */,
+				2B21E5732DCE0402006CB3B2 /* CapCutTests */,
+				2B21E57D2DCE0402006CB3B2 /* CapCutUITests */,
+				2B21E55B2DCE0400006CB3B2 /* Products */,
+				6FB679C3E1DCB2EF4EE71756 /* Pods */,
+				E6AB6CB3E37344FA330A43D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B21E55B2DCE0400006CB3B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B21E55A2DCE0400006CB3B2 /* CapCut.app */,
+				2B21E5702DCE0402006CB3B2 /* CapCutTests.xctest */,
+				2B21E57A2DCE0402006CB3B2 /* CapCutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FB679C3E1DCB2EF4EE71756 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF8ACB57A78AF6F94F21AA /* Pods-CapCut.debug.xcconfig */,
+				A0D9068D1FDEEC23CC3C001F /* Pods-CapCut.release.xcconfig */,
+				B1DD53514017D5F0864C7F7D /* Pods-CapCut-CapCutUITests.debug.xcconfig */,
+				AD1E381541C43D9534E8169A /* Pods-CapCut-CapCutUITests.release.xcconfig */,
+				301E6B52340EFC6892367022 /* Pods-CapCutTests.debug.xcconfig */,
+				D502C9BF54B1AEA5D0312484 /* Pods-CapCutTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6AB6CB3E37344FA330A43D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11577E8B9D014A56F47D01BE /* Pods_CapCut.framework */,
+				CFDC8BA0597BC737D4A1FA43 /* Pods_CapCut_CapCutUITests.framework */,
+				A9AA121D68FCEBACEBEFF7C7 /* Pods_CapCutTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B21E5592DCE0400006CB3B2 /* CapCut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B21E5832DCE0402006CB3B2 /* Build configuration list for PBXNativeTarget "CapCut" */;
+			buildPhases = (
+				1CBAAD0CE905529185F38B55 /* [CP] Check Pods Manifest.lock */,
+				2B21E5562DCE0400006CB3B2 /* Sources */,
+				2B21E5572DCE0400006CB3B2 /* Frameworks */,
+				2B21E5582DCE0400006CB3B2 /* Resources */,
+				670AFF48AC9DFE99DBA61B92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2B21E55C2DCE0400006CB3B2 /* CapCut */,
+			);
+			name = CapCut;
+			productName = CapCut;
+			productReference = 2B21E55A2DCE0400006CB3B2 /* CapCut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B21E56F2DCE0402006CB3B2 /* CapCutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B21E5882DCE0402006CB3B2 /* Build configuration list for PBXNativeTarget "CapCutTests" */;
+			buildPhases = (
+				28DF037DE46E76A2D9A82261 /* [CP] Check Pods Manifest.lock */,
+				2B21E56C2DCE0402006CB3B2 /* Sources */,
+				2B21E56D2DCE0402006CB3B2 /* Frameworks */,
+				2B21E56E2DCE0402006CB3B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B21E5722DCE0402006CB3B2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B21E5732DCE0402006CB3B2 /* CapCutTests */,
+			);
+			name = CapCutTests;
+			productName = CapCutTests;
+			productReference = 2B21E5702DCE0402006CB3B2 /* CapCutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B21E5792DCE0402006CB3B2 /* CapCutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B21E58B2DCE0402006CB3B2 /* Build configuration list for PBXNativeTarget "CapCutUITests" */;
+			buildPhases = (
+				5A705C35AECE3FCBE89ABD14 /* [CP] Check Pods Manifest.lock */,
+				2B21E5762DCE0402006CB3B2 /* Sources */,
+				2B21E5772DCE0402006CB3B2 /* Frameworks */,
+				2B21E5782DCE0402006CB3B2 /* Resources */,
+				DBF16B81009901C4E6E5A78C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B21E57C2DCE0402006CB3B2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2B21E57D2DCE0402006CB3B2 /* CapCutUITests */,
+			);
+			name = CapCutUITests;
+			productName = CapCutUITests;
+			productReference = 2B21E57A2DCE0402006CB3B2 /* CapCutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B21E5522DCE0400006CB3B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2B21E5592DCE0400006CB3B2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2B21E56F2DCE0402006CB3B2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2B21E5592DCE0400006CB3B2;
+					};
+					2B21E5792DCE0402006CB3B2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2B21E5592DCE0400006CB3B2;
+					};
+				};
+			};
+			buildConfigurationList = 2B21E5552DCE0400006CB3B2 /* Build configuration list for PBXProject "CapCut" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B21E5512DCE0400006CB3B2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2B21E55B2DCE0400006CB3B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B21E5592DCE0400006CB3B2 /* CapCut */,
+				2B21E56F2DCE0402006CB3B2 /* CapCutTests */,
+				2B21E5792DCE0402006CB3B2 /* CapCutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B21E5582DCE0400006CB3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B21E56E2DCE0402006CB3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B21E5782DCE0402006CB3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBAAD0CE905529185F38B55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapCut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28DF037DE46E76A2D9A82261 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapCutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A705C35AECE3FCBE89ABD14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapCut-CapCutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		670AFF48AC9DFE99DBA61B92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapCut/Pods-CapCut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapCut/Pods-CapCut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapCut/Pods-CapCut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF16B81009901C4E6E5A78C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapCut-CapCutUITests/Pods-CapCut-CapCutUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapCut-CapCutUITests/Pods-CapCut-CapCutUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapCut-CapCutUITests/Pods-CapCut-CapCutUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B21E5562DCE0400006CB3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B21E56C2DCE0402006CB3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B21E5762DCE0402006CB3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B21E5722DCE0402006CB3B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B21E5592DCE0400006CB3B2 /* CapCut */;
+			targetProxy = 2B21E5712DCE0402006CB3B2 /* PBXContainerItemProxy */;
+		};
+		2B21E57C2DCE0402006CB3B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B21E5592DCE0400006CB3B2 /* CapCut */;
+			targetProxy = 2B21E57B2DCE0402006CB3B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B21E5842DCE0402006CB3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAF8ACB57A78AF6F94F21AA /* Pods-CapCut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapCut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CapCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B21E5852DCE0402006CB3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D9068D1FDEEC23CC3C001F /* Pods-CapCut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapCut/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CapCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B21E5862DCE0402006CB3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B21E5872DCE0402006CB3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B21E5892DCE0402006CB3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301E6B52340EFC6892367022 /* Pods-CapCutTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CapCutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapCut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapCut";
+			};
+			name = Debug;
+		};
+		2B21E58A2DCE0402006CB3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D502C9BF54B1AEA5D0312484 /* Pods-CapCutTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CapCutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapCut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapCut";
+			};
+			name = Release;
+		};
+		2B21E58C2DCE0402006CB3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1DD53514017D5F0864C7F7D /* Pods-CapCut-CapCutUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CapCutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapCut;
+			};
+			name = Debug;
+		};
+		2B21E58D2DCE0402006CB3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1E381541C43D9534E8169A /* Pods-CapCut-CapCutUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CapCutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapCut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B21E5552DCE0400006CB3B2 /* Build configuration list for PBXProject "CapCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B21E5862DCE0402006CB3B2 /* Debug */,
+				2B21E5872DCE0402006CB3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B21E5832DCE0402006CB3B2 /* Build configuration list for PBXNativeTarget "CapCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B21E5842DCE0402006CB3B2 /* Debug */,
+				2B21E5852DCE0402006CB3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B21E5882DCE0402006CB3B2 /* Build configuration list for PBXNativeTarget "CapCutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B21E5892DCE0402006CB3B2 /* Debug */,
+				2B21E58A2DCE0402006CB3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B21E58B2DCE0402006CB3B2 /* Build configuration list for PBXNativeTarget "CapCutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B21E58C2DCE0402006CB3B2 /* Debug */,
+				2B21E58D2DCE0402006CB3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B21E5522DCE0400006CB3B2 /* Project object */;
+}

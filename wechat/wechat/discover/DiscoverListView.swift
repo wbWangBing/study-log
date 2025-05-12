@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct DiscoverListView: View {
+    @StateObject var viewModel = discoverListViewModel()
+   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(0..<viewModel.discoverSections.count , id :\.self){sectionIndex in
+                Section{
+                    ForEach(viewModel.discoverSections[sectionIndex]){item in
+                        DiscoverRowView(item: item)
+                    }
+                }
+                .listRowSeparator(.visible)
+                .listRowInsets(EdgeInsets())
+    
+               
+            }
+        }
+        .listSectionSpacing(12)
+
     }
 }
 
