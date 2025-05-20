@@ -24,9 +24,9 @@ class ProfileViewController: UIViewController , EditProfileDelegate {
 
     // 功能菜单
     private let menuItems = [
-        ("创建小组", "group_icon"),
-        ("喜欢&收藏", "favorite_icon"),
-        ("灵感中心", "inspiration_icon"),
+        ("项目管理", "group_icon"),
+        ("草稿箱", "favorite_icon"),
+        ("模版管理", "inspiration_icon"),
         ("创作课堂", "classroom_icon"),
         ("帮助中心", "help_icon"),
         ("订单与发票", "order_icon")
@@ -116,7 +116,21 @@ extension ProfileViewController: UITableViewDataSource, UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        // 处理菜单点击
+        //MARK: - 处理菜单点击
+        
+        let (title , _ ) = menuItems[indexPath.row]
+        switch title{
+        case "项目管理" :
+            let viewModel = ProjectViewModel(itemStatus: .project)
+            let projectListVC = ProjectListViewController(viewmodel: viewModel)
+            navigationController?.pushViewController(projectListVC, animated: true)
+        case "草稿箱" :
+            let viewModel = ProjectViewModel(itemStatus: .draft)
+            let draftListVC = ProjectListViewController(viewmodel: viewModel)
+            navigationController?.pushViewController(draftListVC, animated: true)
+        default :
+            print("\(title)")
+        }
     }
 }
 

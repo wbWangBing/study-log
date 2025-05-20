@@ -2,17 +2,23 @@ PODS:
   - CHTCollectionViewWaterfallLayout (0.9.10):
     - CHTCollectionViewWaterfallLayout/Swift (= 0.9.10)
   - CHTCollectionViewWaterfallLayout/Swift (0.9.10)
+  - SQLite.swift (0.15.3):
+    - SQLite.swift/standard (= 0.15.3)
+  - SQLite.swift/standard (0.15.3)
 
 DEPENDENCIES:
   - CHTCollectionViewWaterfallLayout
+  - SQLite.swift
 
 SPEC REPOS:
   trunk:
     - CHTCollectionViewWaterfallLayout
+    - SQLite.swift
 
 SPEC CHECKSUMS:
   CHTCollectionViewWaterfallLayout: b989a459788d7657ac010e03bc0f7eedca95a420
+  SQLite.swift: 8d054987f02728cc912b0eb5a9659650573a65a2
 
-PODFILE CHECKSUM: bea0919772ef365f14e5ae667ee5504c173d5b7c
+PODFILE CHECKSUM: 63c842e507ad0f197e99602e50179344f638a6ff
 
 COCOAPODS: 1.16.2

@@ -255,16 +255,14 @@ class EditProfileViewController: UIViewController , UIImagePickerControllerDeleg
     }
 
     // MARK: - 保存
-    @objc private func saveProfile() {
-        // 收集数据
+    @objc private func saveProfile() {        // 收集数据
         profile.nickname = nicknameField.text ?? ""
         profile.gender = (genderControl.selectedSegmentIndex == 1) ? "女" : "男"
         profile.birthday = birthdayPicker.date
         profile.description = tagField.text ?? ""
         profile.address = addressField.text ?? ""
         profile.school = schoolField.text ?? ""
-        
-        // avatarPath 需要在更换头像时更新，这里暂不处理
+
         profile.saveToUserDefaults()
         // 回调给上级页面
         delegate?.didUpdateProfile(profile)

@@ -2,6 +2,42 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CapCut/DataModel/AudioEffectEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/AudioEffectEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/ClipEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/ClipEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/MediaAssetEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/MediaAssetEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/ProjectEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/ProjectEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/TextAnnotationEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/TextAnnotationEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/TrackEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CapCut/DataModel/TrackEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:CapCut.xcodeproj">
    </FileRef>
    <FileRef

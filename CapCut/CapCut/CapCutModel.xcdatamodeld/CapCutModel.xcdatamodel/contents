@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23507" systemVersion="24D70" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AudioEffectEntity" representedClassName="AudioEffectEntity" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="effectType" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" spotlightIndexingEnabled="YES"/>
+        <attribute name="parametersData" attributeType="Binary"/>
+        <attribute name="startTimeInParent" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="clip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClipEntity" inverseName="audioEffects" inverseEntity="ClipEntity"/>
+        <relationship name="track" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TrackEntity" inverseName="audioEffect" inverseEntity="TrackEntity"/>
+    </entity>
+    <entity name="ClipEntity" representedClassName="ClipEntity" syncable="YES">
+        <attribute name="adjustmentsData" optional="YES" attributeType="Binary"/>
+        <attribute name="durationInTrack" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="filtersData" optional="YES" attributeType="Binary"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" spotlightIndexingEnabled="YES"/>
+        <attribute name="isMuted" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="playbackSpeed" optional="YES" attributeType="Float" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="sourceDuration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sourceStartTime" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="startTimeInTrack" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="transformData" optional="YES" attributeType="Binary"/>
+        <attribute name="volume" optional="YES" attributeType="Float" minValueString="0" maxValueString="1" defaultValueString="1" usesScalarValueType="YES"/>
+        <relationship name="audioEffects" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AudioEffectEntity" inverseName="clip" inverseEntity="AudioEffectEntity"/>
+        <relationship name="mediaAsset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MediaAssetEntity" inverseName="clips" inverseEntity="MediaAssetEntity"/>
+        <relationship name="textAnnotations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="TextAnnotationEntity" inverseName="clip" inverseEntity="TextAnnotationEntity"/>
+        <relationship name="track" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TrackEntity" inverseName="clips" inverseEntity="TrackEntity"/>
+    </entity>
+    <entity name="MediaAssetEntity" representedClassName="MediaAssetEntity" syncable="YES">
+        <attribute name="duration" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="height" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" spotlightIndexingEnabled="YES"/>
+        <attribute name="importDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="mediaTypeRawValue" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="originalFilePath" attributeType="String"/>
+        <attribute name="width" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="clips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ClipEntity" inverseName="mediaAsset" inverseEntity="ClipEntity"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProjectEntity" inverseName="mediaAssets" inverseEntity="ProjectEntity"/>
+    </entity>
+    <entity name="ProjectEntity" representedClassName="ProjectEntity" syncable="YES">
+        <attribute name="coverImagePath" optional="YES" attributeType="String"/>
+        <attribute name="creationDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="globalAudioSettingsData" optional="YES" attributeType="Binary"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" spotlightIndexingEnabled="YES"/>
+        <attribute name="lastModifiedDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="outputSettingsData" optional="YES" attributeType="Binary"/>
+        <attribute name="title" attributeType="String"/>
+        <relationship name="mediaAssets" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="MediaAssetEntity" inverseName="project" inverseEntity="MediaAssetEntity"/>
+        <relationship name="tracks" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="TrackEntity" inverseName="project" inverseEntity="TrackEntity"/>
+    </entity>
+    <entity name="TextAnnotationEntity" representedClassName="TextAnnotationEntity" syncable="YES">
+        <attribute name="animationInData" optional="YES" attributeType="Binary"/>
+        <attribute name="animationOutData" optional="YES" attributeType="Binary"/>
+        <attribute name="backgroundColorData" optional="YES" attributeType="Binary"/>
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fontName" optional="YES" attributeType="String"/>
+        <attribute name="fontSize" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" spotlightIndexingEnabled="YES"/>
+        <attribute name="positionX" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="positionY" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="startTimeInTrack" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="text" attributeType="String"/>
+        <attribute name="textColorData" optional="YES" attributeType="Binary"/>
+        <relationship name="clip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClipEntity" inverseName="textAnnotations" inverseEntity="ClipEntity"/>
+        <relationship name="track" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TrackEntity" inverseName="textAnnotation" inverseEntity="TrackEntity"/>
+    </entity>
+    <entity name="TrackEntity" representedClassName="TrackEntity" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" spotlightIndexingEnabled="YES"/>
+        <attribute name="isHidden" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isMuted" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="trackIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="trackTypeRawValue" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Float" minValueString="0" maxValueString="1" defaultValueString="1" usesScalarValueType="YES"/>
+        <relationship name="audioEffect" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="AudioEffectEntity" inverseName="track" inverseEntity="AudioEffectEntity"/>
+        <relationship name="clips" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ClipEntity" inverseName="track" inverseEntity="ClipEntity"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProjectEntity" inverseName="tracks" inverseEntity="ProjectEntity"/>
+        <relationship name="textAnnotation" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TextAnnotationEntity" inverseName="track" inverseEntity="TextAnnotationEntity"/>
+    </entity>
+</model>
